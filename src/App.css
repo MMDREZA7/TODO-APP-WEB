@@ -1,0 +1,22 @@
+.btn {
+  transition: all 1s ease-in-out;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-inline: 50px;
+  padding-block: 20px;
+  border-radius: 15px;
+}
+
+.backGround-main {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
