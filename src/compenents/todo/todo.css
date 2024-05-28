@@ -1,0 +1,73 @@
+.todo-container {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  border-radius: 14px;
+  margin-bottom: 5px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-checkbox-name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-btns {
+  height: 100%;
+}
+
+.todo-name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.todo-btns {
+  display: flex;
+  height: 100%;
+}
+
+.todo-checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.todo-name-container {
+  margin-inline: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-inline: 2%;
+  background-color: #333;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.delete-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2%;
+  background-color: #333;
+  height: 40px;
+  border-radius: 5px;
+  margin-inline-end: 5px;
+}
+.rename-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 5%;
+  background-color: #333;
+  height: 40px;
+  border-radius: 5px;
+}
