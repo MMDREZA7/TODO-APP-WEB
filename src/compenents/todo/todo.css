@@ -60,8 +60,9 @@
   background-color: #333;
   height: 40px;
   border-radius: 5px;
-  margin-inline-end: 5px;
+  margin-inline-end: 6px;
 }
+
 .rename-btn-container {
   display: flex;
   justify-content: center;
