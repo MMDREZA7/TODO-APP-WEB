@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "./Todo.css";
 
-const Todo = ({ text, isDone }) => {
+const Todo = ({ text, isDone, deleteTodo }) => {
   const [isDoing = isDone, setIsDoing] = useState(isDone);
 
   const changeIsDone = () => {
@@ -9,7 +8,7 @@ const Todo = ({ text, isDone }) => {
   };
 
   return (
-    <div className="todo-container">
+    <div className="todo-container" onDoubleClick={deleteTodo}>
       <h3>{text}</h3>
       <input
         className="checkBox"

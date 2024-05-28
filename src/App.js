@@ -3,8 +3,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="backGround-main">
-      <Todos />
+    <div className="background-main">
+      <div className="backGround">
+        <Todos />
+      </div>
     </div>
   );
 }
